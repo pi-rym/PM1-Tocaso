@@ -1,0 +1,107 @@
+/*Estilos Generales*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+h1,h2{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 400;
+}
+/* Sección: Sobre Mí */
+#sobre-mi{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#sobre-mi h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#sobre-mi{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Sección: Mis Tecnologías Favoritas */
+#mis-tecnologias{
+    margin-bottom: 40px;
+}
+.tecnologias-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.tecnologia-card{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tecnologia-card img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}   
+
+.tecnologia-card p{
+    margin-top: 10px;
+    font-weight: bold;    
+    font-size: 1rem;
+}
+
+/* Sección: Mis Actividades Favoritas */
+#mis-actividades{
+    text-align: center;
+}
+
+.actividad-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.actividad-form input, .actividad-form textarea{
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.actividad-form textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+#actividades-creadas{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #777;
+}
